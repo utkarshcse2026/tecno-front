@@ -5,12 +5,6 @@ const Nav = () => {
         <div>
             <ul className="nav-ul">
                 <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/profile">Profile</Link>
-                </li>
-                <li>
                     <Link to="/map">Map</Link>
                 </li>
                 <li>
@@ -22,9 +16,6 @@ const Nav = () => {
 
                 <li>
                     <Link to="/compare">Compare</Link>
-                </li>
-                <li>
-                    <Link to="/logout">Logout</Link>
                 </li>
                 
             </ul>
